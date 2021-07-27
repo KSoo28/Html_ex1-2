@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Ex</title>
+    </head>
+    <body>
+        <h1><b>Ex1</b></h1>
+        <hr>
+        <h1><b>Travel reservation form</b></h1>
+        <p><b>* denote mandotory</b></p>
+        <form action="" method=""> 
+            Full name*: <br>
+            <input type="text" name="full_name" placeholder="FirstName LastName" required/> <br> //placeholder
+            Email address*: <br>
+            <input type="email" name="email_address" placeholder="EMAIL_ADDRESS" required/><br>
+            
+            <label for="tour">Select Tour Package*:</label> <br>
+            <select name="package" id="tour">
+                <option value="goa">Goa</option>
+                <option value="hanoi">HaNoi</option>
+                <option value="dalat">DaLat</option>
+                <option value="haiphong">HaiPhong</option>
+                <option value="hochiminh">HoChiMinh</option>
+            </select> <br>
+
+            Arrival date* <br>
+            <input type="date" name="date" required/><br>
+            Number of persons:*<br>
+            <input placeholder="UNKNOWN_TYPE" required/><br>
+            What would you want to avail?*<br>
+            
+            Broading <input type="checkbox" name="boarding" value="on"/> <br>
+            Fooding <input type="checkbox" name="fooding" value="on"/> <br>
+            Sight seeing <input type="checkbox" name="sight_seeing" value="on"/> <br>
+
+            Discout Coupon code: <br>
+            <input  placeholder="UNKNOWN_TYPE"> <br>
+            Terms and conditions* <br>
+            
+            <input type="radio">I agree <input type="radio">I disagree <br>
+            <button name="submit" value="submit">Complete reservation</button>
+        </form>
+        ------------------------------------------------
+        <h1><b>Ex2</b></h1>
+        <hr>
+        <form style="width:500px; margin_left:30%;">
+            <h1><b>Zoo Keeper Application Form</b></h1>
+            <p><i>Please complete the form. Mandatory fields are marked with a *</i></p>
+            <fieldset>
+                <legend>CONTACT DETAILS</legend>
+                <table>
+                    <tr height="10"></tr>
+                    <tr>
+                        <td width="100"><label">Name*</label></td>
+                        <td><input type="text" size="30" placeholder="FirstName and LastName" required/></td>
+                    </tr>
+                    <tr height="10"></tr>
+                    <tr>
+                        <td width="100"><label">Telephone</label></td>
+                        <td><input type="text" size="30" placeholder="" required/></td>
+                    </tr>
+                    <tr height="10"></tr>
+                    <tr>
+                        <td width="100"><label">Email*</label></td>
+                        <td><input type="email" size="30" placeholder="" required/></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>PERSONAL INFORMATION</legend>
+                <table>
+                    <tr height="10"></tr>
+                    <tr>
+                        <td width="100">Age*</td>
+                        <td><input type="number" size="30" required></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr height="10"></tr>
+                    <tr>
+                        <td width="100">Gender</td>
+                        <td><select>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                        </select></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr height="10"></tr>
+                    <tr>
+                        <td width="100">When did you first know you wanted to be a zoo-keeper</td>
+                        <td><input type="text" size="30"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>PICK YOUR FAVORITE ANIMALS</legend>
+                <table>
+                    <tr height="10"></tr>
+                    <tr>
+                        <td><input type="checkbox" name="zebra" id="zebra">Zebra</td>
+                        <td><input type="checkbox" name="cat" id="cat">Cat</td>
+                        <td><input type="checkbox" name="anaconda" id="anaconda">Anaconda</td>
+                        <td><input type="checkbox" name="human" id="human">Human</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="elephant" id="elephant">Elephant</td>
+                        <td><input type="checkbox" name="wildebeest" id="wildebeest">Wildebeest</td>
+                        <td><input type="checkbox" name="pigeon" id="pigeon">Pigeon</td>
+                        <td><input type="checkbox" name="crab" id="crab">Crab</td>
+                    </tr>
+                </table>
+            </fieldset> <br>
+            <button>Submit Application</button>
+        </form>
+    </body>
+</html>
